@@ -5,6 +5,9 @@ def main():
     print(f"La somme de {a} et {b} est {a + b}.")
 def produit(a, b):
     print(f"Le produit de {a} et {b} est {a * b}.")
+def difference(a, b):
+    return a - b
+
 
 if __name__ == "__main__":
     main()
